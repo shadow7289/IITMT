@@ -1,0 +1,66 @@
+ <!--==========================
+  Header Section
+  ============================-->
+  <header id="header">
+        <div class="container">
+    
+          <div id="logo" class="pull-left">
+            <h1><a href="#intro" class="scrollto">Wallpaper</a></h1>
+            <!-- Uncomment below if you prefer to use a text image -->
+            <!--<h1><a href="#hero">Header 1</a></h1>-->
+          </div>
+    
+          <nav id="nav-menu-container">
+            <ul class="nav-menu">
+              <li><a href="#contact" data-toggle="modal" data-target="#myModal">Contact Us</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a [routerLink]="['/gallery']">Top Rated</a></li>
+              <li class="menu-has-children"><a href="">Categories</a>
+                <ul>
+                  <li><a href="#">Gamin Wallpaper</a></li>
+                  <li><a href="#">Cars</a>
+                  <li><a href="#">Anime</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <!-- #nav-menu-container -->
+        </div>
+      </header>
+      <!-- #header -->
+
+<!-- Contact us modal -->
+<div class="container">
+  <!-- <h2>Modal Example</h2> -->
+  <!-- Trigger the modal with a button -->
+  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <h4 class="modal-title">Contact Us</h4>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for visiting our website<br>Contact us on any one of the platforms bellow:<br></p>
+          <pre>Yash Sharma(Creator)                      Ashutosh Verma</pre>
+          <div class="social-links">
+           <a href="https://www.instagram.com/yash_sharma7.2/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+           <a href="#" class="google-plus"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             
+           <a href="https://www.instagram.com/_ashu.verma_/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>
+           <a href="#" class="google-plus"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>

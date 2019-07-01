@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import 'glyphicons'
 
 @Component({
   selector: 'app-root',
